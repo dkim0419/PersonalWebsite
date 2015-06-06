@@ -1,0 +1,18 @@
+/* CSS for portfolio projects */
+
+.image-round
+{
+	height: 230px;
+	width: 230px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+	background-repeat: no-repeat;
+	object-fit: cover;
+}
+
+.image-round img
+{
+	width: 100%;
+	-webkit-transform: translate(-50%);
+}
