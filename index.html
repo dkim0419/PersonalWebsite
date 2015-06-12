@@ -18,9 +18,17 @@
 	<link href="css/navbar-custom.css" rel="stylesheet">
     <link href="css/theme-custom.css" rel="stylesheet">
 	<link href="css/projects.css" rel="stylesheet">
+	
+	<!-- Animation CSS -->
+	<link href="css/animate.css" rel="stylesheet">
 
 	<!-- Custom Font -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400italic,300,700,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Shortcut Icon -->
+	<link rel="shortcut icon" href="images/favicon.ico">
 	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,19 +41,17 @@
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="55">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header page-scroll">
+			<div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+					<i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" alt="">Daniel Kim</a>
+                <a class="navbar-brand page-scroll " href="#page-top" alt="">Daniel Kim</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -71,7 +77,7 @@
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
-            </div>
+			</div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -80,18 +86,17 @@
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeIn">
                 <div class="col-lg-12">
                     <h1>DANIEL KIM</h1>
-					<h2>University of Waterloo - Computer Science<br/>
-						Inspire. Grow. Succeed.</h2>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<p>"I may not be software developer that everyone wants, but at least I'm not the software developer that everyone's had."</p>
+					<h2>University of Waterloo - Computer Science</h2>
                 </div>
             </div>
+			<div class="row">
+				<div class="col-lg-12 scroll-down-btn wow fadeInDown">
+					<a href="#about" class="page-scroll btn btn-outline btn-lg wow fadeIn"><i class="fa fa-angle-double-down"></i></a>
+				</div>
+			</div>
         </div>
     </section>
 
@@ -100,31 +105,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>About Me</h1><hr>
-					<p>Hi, I am a budding student leader at the University of Waterloo. I love inspiring fellow students to strive to better the world through technology. Through my studies in computer science 
-					I create happiness in the lives of my peers and family.
-					</p>
-					
-					<br/>
-					
-					<p><strong>Education</strong></p><br/>
-					
-					<div class="col-md-6">
-						<p align="right">
-							University of Waterloo - Computer Science<br/>
-							Richmond Green Secondary School<br/>
-							Lake Wilcox Public School<br/>
-							McKee Public School
-						</p>
-					</div>
-					<div class="col-md-6">
-						<p align="left">
-							<i>(2014 - Present)</i><br/>
-							<i>(2010- 2014)</i><br/>
-							<i>(Grade 3 - Grade 8)</i><br/>
-							<i>(Kindergarten - Grade 2)</i>
-						</p>
-					</div>
+                    <h1 class="wow fadeInUp">About Me</h1><hr/>
+				</div>
+				<div>
+					<p class="wow fadeIn">Hi, I am a first year computer science student at the University of Waterloo. Lorem ipsum dolor sit amet, consectetur 
+					adipiscing elit. Aenean turpis erat, maximus non nulla quis, aliquam malesuada massa. Sed congue luctus urna at aliquam. 
+					Pellentesque consectetur nulla vel eros suscipit, eget tristique leo feugiat. Mauris pulvinar, dui eget tristique imperdiet, 
+					purus nibh tincidunt velit, vel vestibulum ipsum neque ac massa. Nunc nec interdum sapien. Nullam non lacus at nisi tincidunt facilisis eu quis justo.</p>
                 </div>
             </div>
         </div>
@@ -135,34 +122,29 @@
         <div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>Portfolio</h1><hr>
+					<h1 class="wow fadeInUp">Portfolio</h1><hr/>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="portfolio-item col-sm-4 wow zoomIn">
 					<img src="images/default_project_image.jpg" class="image-round"/>
 					<h2>Project 1</h2>
-					<p>blahhhhh</p>
 				</div>				
-				<div class="col-sm-4">
+				<div class="portfolio-item col-sm-4 wow zoomIn">
 					<img src="images/default_project_image.jpg" class="image-round" />
 					<h2>Project 2</h2>
-					<p>blahhhhh</p>
 				</div>				
-				<div class="col-sm-4">
+				<div class="portfolio-item col-sm-4 wow zoomIn">
 					<img src="images/default_project_image.jpg" class="image-round" />
 					<h2>Project 3</h2>
-					<p>blahhhhh</p>
 				</div>
-				<div class="col-sm-4">
+				<div class="portfolio-item col-sm-4 wow zoomIn">
 					<img src="images/default_project_image.jpg" class="image-round" />
 					<h2>Project 4</h2>
-					<p>blahhhhh</p>
 				</div>
-				<div class="col-sm-4">
+				<div class="portfolio-item col-sm-4 wow zoomIn">
 					<img src="images/default_project_image.jpg" class="image-round" />
 					<h2>Project 5</h2>
-					<p>blahhhhh</p>
 				</div>
 			</div>
 		</div>
@@ -173,7 +155,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Work Experience</h1><hr>
+                    <h1 class="wow fadeInUp">Work Experience</h1><hr/>
                 </div>
             </div>
         </div>
@@ -184,8 +166,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Resume</h1><hr>
-					<a href="http://www.google.ca" class="btn btn-outline btn-lg"><span class="glyphicon glyphicon-download-alt"></span> Download PDF Resume</a>
+                    <h1 class="wow fadeInUp">Resume</h1><hr/>
+				</div>
+				<div>
+					<a href="http://www.google.ca" class="btn btn-outline btn-lg wow fadeIn"><span class="fa fa-download"></span> Download PDF Resume</a>
                 </div>
             </div>
         </div>
@@ -196,25 +180,70 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1>Contact</h1><hr>
+                    <h1 class="wow fadeInUp">Contact</h1><hr/>
+                </div>
+            </div>
+			<div class="row">
+				<p>dkim0419@gmail.com</p>
+			</div>
+        </div>
+    </section>
+	
+	<!-- Footer -->
+	<footer class="text-center">
+		<div class="footer-above">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col col-lg-12">
+						<h3 class="wow fadeInUp">Social Media</h3>
+						<ul class="list-inline wow fadeIn">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                       </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 wow fadeIn">
+                        Copyright &copy; Daniel Yehun Kim 2015
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
+	
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+	
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-
-	<footer>
-        <p class="muted"><small>© 2015 Daniel Yehun Kim</small></p>
-    </footer>
+	
+	<!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+	
+	<!-- WOW Animations JavaScript-->
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 	
 </body>
 
