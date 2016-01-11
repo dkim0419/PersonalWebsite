@@ -4,7 +4,7 @@
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
-    background-color: #000;
+    background-color: #2a3843;
 }
 
 .navbar-custom .navbar-brand {
@@ -78,6 +78,6 @@
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #2a3843;
     }
 }

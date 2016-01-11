@@ -18,7 +18,6 @@ h1,h2,h3,h4,h5,h6{
 
 h1{
 	font-weight: 700;
-	text-transform:uppercase;
 	padding-bottom: 20px;
 }
 
@@ -117,14 +116,13 @@ a:hover{
 }
 
 .btn-outline, .btn-outline:link, .btn-outline:visited{
-	background-color: #2A2C2B;
 	border-radius: 2;
 	border: 2px solid #FAFAFA;
 	color: #FAFAFA;
 }
 
 .btn-outline:active, .btn-outline:hover{
-	background-color: #374140;
+	background-color: #1c2a34;
 	color: #FAFAFA;
 }
 
@@ -134,7 +132,7 @@ a:hover{
     padding-top: 150px;
 	padding: 100px 0;
     text-align: center;
-	background: url(../images/birdtextwallpaper.svg) no-repeat bottom center scroll;
+	background: url(../images/wallpaper.png) no-repeat bottom center scroll;
 	background-color: #212121;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -142,20 +140,12 @@ a:hover{
     -o-background-size: cover;
 }
 
-.about-section {
-    height: auto;
-    padding-top: 50px;
-	padding-bottom: 50px;
-    text-align: center;
-    background: #374140;
-}
-
 .portfolio-section {
 	height: auto;
     padding-top: 50px;
 	padding-bottom: 50px;
     text-align: center;
-	background: #212121;
+	background: #2a3843;
 }
 
 .experience-section {
@@ -163,7 +153,7 @@ a:hover{
     padding-top: 50px;
 	padding-bottom: 50px;
     text-align: center;
-    background: #374140;
+    background: #314757;
 }
 
 .resume-section {
@@ -171,7 +161,7 @@ a:hover{
     padding-top: 50px;
 	padding-bottom: 50px;
     text-align: center;
-	background: #212121;
+	background: #2a3843;
 }
 
 .contact-section {
@@ -180,7 +170,7 @@ a:hover{
     padding-top: 50px;
 	padding-bottom: 50px;
 	text-align:center;
-    background: #374140;
+    background: #314757;
 }
 
 footer{
@@ -193,7 +183,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2A2C2B;
+    background-color: #2a3843;
 }
 
 footer .footer-col {
@@ -202,7 +192,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #000;
+    background-color: #2a3843;
 }
 
 .btn-social {
