@@ -96,6 +96,18 @@ a:hover{
 	outline:0;
 }
 
+.image-round-profile
+{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	margin-bottom: 0.25em;
+}
+
 .portfolio-item{
 	margin-bottom: 20px;
 }
@@ -170,7 +182,7 @@ a:hover{
     padding-top: 50px;
 	padding-bottom: 50px;
 	text-align:center;
-    background: #314757;
+    background: #2a3843;
 }
 
 footer{
